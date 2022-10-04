@@ -1,7 +1,9 @@
 version: "3"
 services:
   plantuml-server:
-    image: plantuml/plantuml-server:jetty
+    image: plantuml/plantuml-server:tomcat
     container_name: plantuml-local-server
+    volumes:
+      - .:/plantuml:cached
     ports:
       - 8080:8080
