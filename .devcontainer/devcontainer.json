@@ -23,8 +23,13 @@
 		"cSpell.words": [
 			"plantuml",
 			"startuml",
-			"enduml"
+			"enduml",
+			"skinparam",
+			"autonumber",
+			"usecase"
 		],
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
 		"plantuml.render": "PlantUMLServer",
 		"plantuml.server": "http://localhost:8080/",
 		"markdown-preview-enhanced.plantumlServer": "http://localhost:8080/svg/"
