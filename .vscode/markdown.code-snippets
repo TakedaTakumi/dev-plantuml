@@ -32,8 +32,10 @@
 		"scope": "markdown",
 		"prefix": "plantuml",
 		"body": [
-			"```pulantuml",
+			"```plantuml",
+			"@startuml",
 			"$1",
+			"@enduml",
 			"```"
 		],
 		"description": "plantUML code block"
